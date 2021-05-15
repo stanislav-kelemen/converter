@@ -1,0 +1,41 @@
+@import "../../scss/variables.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  background-color: $grey;
+  font-size: 1.2rem;
+}
+
+.logo {
+  font-family: $font-secondary;
+  font-size: 2.0rem;
+  color: $black;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: $blue;
+  font-family: $font-primary;
+  margin: 0 10px;
+
+  &:hover {
+    color: lighten($blue, 20%);
+  }
+}
+
+.email {
+  font-family: $font-primary;
+  font-size: 1rem;
+  margin-right: 10px;
+}

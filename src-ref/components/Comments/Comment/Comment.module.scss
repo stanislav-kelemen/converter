@@ -1,0 +1,60 @@
+@import "src/scss/variables.scss";
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+
+.delete {
+    cursor: pointer;
+    align-self: flex-end;
+    top: 20px;
+    right: 20px;
+    &:hover{
+        cursor: pointer;
+        filter: brightness(80%);
+    }
+}
+
+.update{
+    top: 20px;
+    right: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.avatarImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.text {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-family: $font-primary;
+}
+
+.name{
+    font-size: 1.5rem;
+    font-family: $font-primary;
+    margin-bottom: 10px;
+}
